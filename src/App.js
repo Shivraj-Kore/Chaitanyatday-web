@@ -6,12 +6,14 @@ import ContactPage from "./pages/ContactPage";
 import HomePage from "./pages/HomePage";
 import ProductsPage from "./pages/ProductsPage";
 import ServicesPage from "./pages/ServicesPage";
-import NoPage from "./pages/NoPage"
+import NoPage from "./pages/NoPage";
+import ParticleBG from './components/ParticleBG';
 
 function App() {
   return (
     <div className="App">
         <BrowserRouter>
+        <ParticleBG/>
           <Navbar/>
           <Routes>
             <Route index element={<HomePage/>} />
