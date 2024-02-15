@@ -44,7 +44,7 @@ const carddata = [
   
 ]
 
-function ServicesPage(props) {
+function ServicesPage() {
   return (
     <>
       <div>
